@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'sourceSansPro';
+    src: url(./fonts/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family:'spincycle' ;
+    src: url(./fonts/spincycle_ot-webfont.woff);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+.header{
+    background: url(./images/headphones_hero_1.jpg);
+    min-height: 100vh;
+}
+
+.logo a{
+    font-family: 'spincycle';
+    text-decoration: none;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-content{
+    background-color: red;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;    
+}
+
+.menu ul li{
+    padding: 0 10px;
+    font-family: 'sourceSansPro';
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu ul li:hover a{
+    background-color: #FF6565;
+    padding: 10px;
+    height: 100%;
+}
