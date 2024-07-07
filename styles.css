@@ -110,6 +110,53 @@ input[type="checkbox"] {
   border: none;
 }
 
-button:hover, button:active{
-    opacity: .9;
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+/* Responsiveness */
+
+@media (max-width: 500px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu-btn {
+    display: inline;
+  }
+  
+
+  nav {
+    /* background-color: red; */
+  }
+  .header-content{
+    display: block;
+  }
+
+  .menu{
+    /* background-color: blue; */
+    text-align: center;
+  }
+  .menu ul li {
+   margin: 10px;
+
+  }
+  .menu ul li a{
+    padding:5px ;
+  }
+
+  input[type="checkbox"]:checked ~ .header-content .menu {
+    display: block;
+  }
+  input[type="checkbox"]:checked ~ .header-content .menu ul {
+    display: block;
+  }
+
+  input[type="checkbox"]:checked ~ .header-content .logo .menu-btn{
+    display: none;
+  }
+  input[type="checkbox"]:checked ~ .header-content .logo .close-btn{
+    display: block;
+  }
 }
