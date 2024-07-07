@@ -21,6 +21,12 @@
 .logo a{
     font-family: 'spincycle';
     text-decoration: none;
+    color: #fff;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
 }
 .container{
     max-width: 1000px;
@@ -28,7 +34,7 @@
 }
 
 .header-content{
-    background-color: red;
+    /* background-color: red; */
     padding: 12px;
     display: flex;
     justify-content: space-between;
@@ -56,3 +62,15 @@
     padding: 10px;
     height: 100%;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.close-btn, .menu-btn,input[type="checkbox"] {
+    display: none;
+}
+
