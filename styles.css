@@ -275,6 +275,14 @@ button:active {
     display: flex;
     flex-direction: column;
   }
+
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 }
 
 /* what we do */
@@ -393,17 +401,14 @@ button:active {
   /* border: 2px solid blue; */
 }
 
-
-
 form {
-  font-family:'sourceSansPro' ;
+  font-family: "sourceSansPro";
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   /* border: 1px solid black; */
-  
 }
 
 .contact .container {
@@ -411,28 +416,56 @@ form {
   width: 70vw;
 }
 
-form input{
+form input {
   border: none;
   border-bottom: 2px solid rgb(151, 151, 151);
   padding: 10px;
   /* width: 30%; */
 }
 
-form input:active, form input:focus{
+form input:active,
+form input:focus {
   border: none;
 }
 
-form .row p{
+form .row p {
   font-size: 32px;
   font-weight: 700;
 }
 
-form input{
+form input {
   width: 40%;
 }
 
-form input::placeholder{
+form input::placeholder {
   font-weight: 700;
   color: black;
+}
 
+.footer {
+  color: white;
+  background: #071629;
+  height: 20vh;
+  padding: 40px;
+}
+
+.footer p {
+  color: rgb(113, 113, 113);
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.socials span{
+  font-size: 35px;
 }
