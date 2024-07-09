@@ -315,3 +315,78 @@ button:active {
 color: #ff6565;
 font-size: 80px;
 }
+
+.part3-dark{
+    background: url(./images/headphones_hero_2.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    color:#fff;
+    font-family: 'sourceSansPro';
+   
+}
+
+.part3-dark .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    text-align: center;
+    margin: auto;
+    margin-top:100px;
+    padding: 200px 20px;
+   
+    
+    
+}
+
+.pentagon{
+  position: relative;
+  width: 190px;
+  height: 190px;
+ 
+  display: block;
+}
+.pentagon  svg{
+  
+  width: 100%;
+  height: 100%;
+  fill: #ff6565;  
+  
+
+}
+.what-we-do{
+  max-width: 60%;
+  /* border: 2px solid red; */
+}
+.what-we-do h3{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.what-we-do p{
+  font-size: 16px;
+}
+
+.pentagon-card{
+  display: flex;
+ 
+  /* margin-top: 100px; */ 
+  gap: 10px;
+}
+
+.pentagon h3{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.pentagon p{
+  font-size: 12px;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+}
