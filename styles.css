@@ -258,6 +258,22 @@ button:active {
   input[type="checkbox"]:checked ~ .header-content .logo .close-btn{
     display: block;
   }
+
+   .part2-icons{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    /* border: 2px solid blue; */
+    margin: auto;
+  }
+
+  .icon-card{
+    margin: 0 auto;
+    /* border:2px solid red; */
+  }
 }
 
 
@@ -274,8 +290,11 @@ button:active {
 .what-we-do{
     /* background-color: blue; */
     max-width: 30vw;
-    margin: 0 auto;
-   
+    margin: 0 auto;   
+}
+
+.what-we-do h2{
+    margin-bottom: 20px
 }
 
 .part2-icons{
