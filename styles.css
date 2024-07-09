@@ -274,6 +274,11 @@ button:active {
     margin: 0 auto;
     /* border:2px solid red; */
   }
+
+  .pentagon-card{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 
